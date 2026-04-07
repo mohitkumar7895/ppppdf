@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  /* pdf preview uses an iframe; no pdfjs-dist / canvas shims required */
 };
 
 export default nextConfig;
